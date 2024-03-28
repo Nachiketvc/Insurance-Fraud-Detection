@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Information Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<body>
+    <h1>Insurance Information Form</h1>
+    {% if result %}
+        <p> Result: {{ result }}</p>
+    {% endif %}
+    <form action="/predict" method="post">
+        <label for="months_as_customer">Months as Customer:</label><br>
+        <input type="number" id="months_as_customer" name="months_as_customer"><br>
+
+        <label for="policy_deductable">Policy Deductible:</label><br>
+        <input type="number" id="policy_deductable" name="policy_deductable"><br>
+
+        <label for="umbrella_limit">Umbrella Limit:</label><br>
+        <input type="number" id="umbrella_limit" name="umbrella_limit"><br>
+
+        <label for="capital_gains">Capital Gains:</label><br>
+        <input type="number" id="capital_gains" name="capital_gains"><br>
+
+        <label for="capital_loss">Capital Loss:</label><br>
+        <input type="number" id="capital_loss" name="capital_loss"><br>
+
+        <label for="incident_hour_of_the_day">Incident Hour of the Day:</label><br>
+        <input type="number" id="incident_hour_of_the_day" name="incident_hour_of_the_day"><br>
+
+        <label for="number_of_vehicles_involved">Number of Vehicles Involved:</label><br>
+        <input type="number" id="number_of_vehicles_involved" name="number_of_vehicles_involved"><br>
+
+        <label for="bodily_injuries">Bodily Injuries:</label><br>
+        <input type="number" id="bodily_injuries" name="bodily_injuries"><br>
+
+        <label for="witnesses">Witnesses:</label><br>
+        <input type="number" id="witnesses" name="witnesses"><br>
+
+        <label for="vehicle_claim">Vehicle Claim:</label><br>
+        <input type="number" id="vehicle_claim" name="vehicle_claim"><br>
+
+        <label for="collision_type">Collision Type:</label><br>
+        <select id="collision_type" name="collision_type">
+        <option value="0">0 - Side Collision</option>
+        <option value="1">1 - Rear Collision</option>
+        <option value="2">2 - Front Collision</option>
+        </select><br>
+
+
+        <label for="incident_severity">Incident Severity:</label><br>
+        <select id="incident_severity" name="incident_severity">
+        <option value="0">0 - Minor Damage</option>
+        <option value="1">1 - Major Damage</option>
+        <option value="2">2 - Total Loss</option>
+        </select><br>
+
+
+
+        <label for="authorities_contacted">Authorities Contacted:</label><br>
+        <select id="authorities_contacted" name="authorities_contacted">
+        <option value="0">0 - Police</option>
+        <option value="1">1 - Fire</option>
+        <option value="2">2 - Ambulance</option>
+        <option value="3">3 - None</option>
+        </select><br>
+
+
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
+
+
