@@ -35,9 +35,9 @@ def predict_fraud():
     result = model.predict(input_features)
 
     if result == 1:
-        result_message = "This is not fraudulent."
-    else:
         result_message = "This is fraudulent."
+    else:
+        result_message = "This is not fraudulent."
 
     return render_template('index.html', result=result_message)
 

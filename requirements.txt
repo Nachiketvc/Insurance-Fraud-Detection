@@ -3,3 +3,11 @@ flask
 scipy
 scikit-learn
 xgboost
+gunicorn
+jinja2
+pandas
+matplotlib
+MarkupSafe
+requests
+httpx
+Flask-cors
