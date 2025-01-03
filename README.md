@@ -5,7 +5,7 @@
 2. [Technologies Packages & Libraries Used](#technologies)
 3. [Features](#features)
 4. [Result](#Result)
-5. [Acknowledgments](#acknowledgments)
+5. [Screenshot](#Screenshot)
 
 
 ---
@@ -68,4 +68,8 @@ Below is a breakdown of the core technologies used in this project:
  
 ---
 
+## Screenshot
+
 ![ifd pic_page-0001](https://github.com/user-attachments/assets/793978db-922c-4bc9-b23f-bc5151eb2dd9)
+
+---
