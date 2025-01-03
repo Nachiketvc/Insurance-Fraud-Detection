@@ -15,7 +15,10 @@
 ## What is Insurance Fraud?
 Insurance fraud occurs when individuals deceive insurance companies to obtain undeserved payouts. Detecting fraudulent claims is crucial for minimizing financial losses and ensuring fairness.
 
-## This project aims to identify fraudulent claims in insurance datasets, leveraging machine learning techniques for accurate classification.
+**This project aims to identify fraudulent claims in insurance datasets, leveraging machine learning techniques for accurate classification.**
+
+**About Dataset**
+- The dataset is collected from Kaggle, containing 1,000 rows and 28 columns
 
 
 ---
