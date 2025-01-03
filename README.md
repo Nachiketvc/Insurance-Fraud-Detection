@@ -59,7 +59,7 @@ Below is a breakdown of the core technologies used in this project:
 
 ---
 
-## Screenshots
+## Result
 
 **Best Performing Model:** XGBoost
 - Achieved the highest accuracy and F1-Score among all individual models.
