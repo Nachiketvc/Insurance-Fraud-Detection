@@ -15,7 +15,7 @@
 ## What is Insurance Fraud?
 Insurance fraud occurs when individuals deceive insurance companies to obtain undeserved payouts. Detecting fraudulent claims is crucial for minimizing financial losses and ensuring fairness.
 
-This project aims to identify fraudulent claims in insurance datasets, leveraging machine learning techniques for accurate classification.
+## This project aims to identify fraudulent claims in insurance datasets, leveraging machine learning techniques for accurate classification.
 
 
 ---
@@ -39,25 +39,23 @@ Below is a breakdown of the core technologies used in this project:
 
 ## Features
 
-**Login and Signup:** Secured with JWT Token for encryption, user authentication, and authorization.
+## 1. Data Preprocessing
 
-**Stock Trading:** Users can buy and sell stocks, with updates reflected in real-time under the Holdings and Intraday sections.
+- Handled missing values to ensure data integrity.
+- Performed feature selection to identify the most relevant variables for classification.
 
-**Order History:** View buy/sell history in the Orders section.
+## 2. Model Implementation
 
-**Trading Options:** Separate options for Holdings (long-term investments) and Intraday trading.
+- Applied multiple machine learning algorithms for claim classification:
+- Decision Trees
+- Random Forests
+- XGBoost
+- Neural Networks
+- Evaluated each model using metrics such as accuracy and F1-Score.
 
-**Real-Time News Updates:** Integrated an API for real-time news updates related to the stock market.
+## 3. Hybrid Model Development
 
-**Feedback Feature:** Users can share their inputs through a dedicated feedback feature.
-
-**Frontend Design:** The frontend design is inspired by Zerodha.
-
-**Database:** All the data is stored in MongoDB.
-
-**Deployment:** Backend hosted on Render and Frontend on Vercel.
-
-**Future Enhancements:** Introducing an Admin Section to manage and monitor user activities seamlessly.
+- Combined the strengths of XGBoost (highest performance in individual models) and Random Forest using a hybridization technique for enhanced results.
 
 ---
 
