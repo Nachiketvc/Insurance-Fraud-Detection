@@ -4,7 +4,7 @@
 1. [Overview](#overview)
 2. [Technologies Packages & Libraries Used](#technologies)
 3. [Features](#features)
-4. [Screenshots](#demo--screenshots)
+4. [Result](#Result)
 5. [Acknowledgments](#acknowledgments)
 
 
@@ -61,9 +61,9 @@ Below is a breakdown of the core technologies used in this project:
 
 ## Screenshots
 
-<img src="HomePage.jpg" width="200" /> <img src="Pricing.jpg" width="200" /> <img src="SignUp.jpg" width="200" /> <img src="Footer.jpg" width="200" />
-
-<img src="TradingDashboard.jpg" width="200" /> <img src="Holdings.jpg" width="200" /> <img src="IntraDay.jpg" width="200" /> <img src="Orders.jpg" width="200" /> <img src="FeedBack.jpg" width="200" /> <img src="News.jpg" width="200" />
+**Best Performing Model:** XGBoost
+- Achieved the highest accuracy and F1-Score among all individual models.
+**Hybrid Model:** Improved performance by combining XGBoost and Random Forest, further enhancing detection capabilities.
 
  
 ---
